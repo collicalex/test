@@ -11,6 +11,12 @@ A: DOWNLOAD PACKAGES:
 1) Get Node.JS from official site   
    https://nodejs.org/en   
    Test with: node-v8.10.0-win-x86.zip
+   
+Note:   
+   For points 2 to 37, you can directly grab a package version:   
+   https://github.com/collicalex/test/blob/master/node_modules.zip
+   
+   
 
 2) Get Puppeteer from github release page   
    https://github.com/GoogleChrome/puppeteer/releases   
@@ -175,6 +181,8 @@ B: INSTALL:
 
 1) Uncompress node.zip   
    It will create a directory node-v8.10.0-win-x86
+
+Note: If you grab my package version (node_modules.zip), just unzip its content into node-v8.10.0-win-x86\node_modules director; instead of doing points 2, 3, 4. Still need to do point 5.
 
 2) a) Uncompress puppeteer-1.2.0.zip into node-v8.10.0-win-x86\node_modules   
       It will uncompress a directory node-v8.10.0-win-x86\node_modules\puppeteer-1.2.0   
